@@ -1,0 +1,305 @@
+@media only screen and (max-width: 550px) {
+    .inputt{
+        display: none;
+    }
+    .inputt-two{
+        display: none;
+    }
+    .my-btn{
+        display: none;
+    }
+    p.login{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1165px) {
+    .my-btn{
+        display: none;
+    }
+    p.login{
+        display: none;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{
+    box-sizing: border-box;
+}
+
+.inputt{
+    padding: 10px;
+    width:20%;
+    border-radius: 4px;
+    margin-left: 13px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+.inputt{
+   background-image: url(images/search.png);
+   background-repeat: no-repeat;
+   background-size: 45px;
+   padding: 10px;
+   padding-left: 50px;
+   
+}
+.inputt:hover{
+    border-color: rgb(35, 229, 219);
+    
+}
+.inputt-two:hover{
+    border-color: rgb(35, 229, 219);
+
+}
+.inputt-two{
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 15px;
+
+}
+.login{
+display: inline-block;
+  margin-left: 50px;
+  
+  font-size: 20px;
+  text-decoration: underline;
+ 
+}
+.login:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+.my-btn{
+    border-radius: 100px;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 20px;
+    border-color: cyan blue blue yellow;
+    border-width: 4px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+
+    
+
+}
+
+
+
+.sec-nav-bar{
+    background-color: white!important;
+}
+
+ul.my-nav-bar  li{
+    margin-left: 8;
+    padding: 5px;
+ 
+
+
+}
+a.my-category{
+   
+    font-weight: bold !important;
+}
+
+.my-nav-bar   a{
+    color: rgb(0, 47, 52) !important;
+}
+.my-nav-bar a:hover{
+    color: rgb(49, 184, 218) !important;
+}
+.imageContainer{
+   
+    text-align: center;
+    overflow: hidden;
+}
+.add-image{
+    padding: 30px;
+    
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.parent-div{
+    max-width: 95%;
+    width: 100%;
+    
+    height: 520px;
+    margin: 40px;
+    
+}
+
+.mobile-text{
+    font-size: 27px;
+    padding: 15px;
+}
+
+.website-add1{
+    width: 100%;
+    text-align: center;
+}
+.view-more:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.featured{
+    background-color: yellow;
+    width: 90px;
+    height: 17px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.my-card:hover{
+    cursor: pointer;
+}
+
+.heart-image{
+    width: 10%;
+   float: right;
+   margin-top: -20px;
+   margin-left: 20px;
+}
+
+.my-card-image{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+.card-my{
+    margin-right: -10px;
+
+}
+.rate{
+    font-weight: bold;
+}
+
+.card-date{
+    float: right;
+    color: grey;
+}
+.one{
+    margin-top: 20px;
+   
+    max-width: 100%;
+}
+
+
+.second-pictures{
+    padding: 17px;
+   margin-top: 10px;
+    width: 100%;
+}
+.my-buttn-div{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.my-buttn{
+    font-size: 20px;
+    color: black;
+    border-color: black;
+
+}
+.my-buttn:hover{
+  background-color: black;
+  border-color: white !important;
+ 
+}
+.website-add{
+    text-align: center;
+    margin-top: 40px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.olx{
+    
+    background-color: rgb(247, 248, 249);
+    width: 100%;
+    margin-top: 50px;
+    
+    
+
+}
+.try-olx{
+
+  margin-top: 20px;
+}
+.image-phone{
+   width: 300px;
+}
+.get-your{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+.my-footer{
+   
+    width: 100%;
+    height: 180px;
+    border: 1px solid;
+    background-color: white;
+    border-color:  black  white white;
+}
+
+.footer-head
+{   text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+color: rgb(0, 47, 52);
+margin-left: 24px;
+
+}
+.links{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    padding: 25px;
+    margin-top: 20px;
+    
+
+}
+.foot-list ul li{
+    list-style: none;
+
+    margin-top: 6px;
+}
+
+.follow{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.iconss{
+    margin-top: -25px;
+}
+
+.appp-icon:hover{
+               cursor: pointer;
+}
+.iconss:hover{
+    cursor: pointer;
+}
+.google-icon{
+    cursor: pointer;
+  
+   
+}
